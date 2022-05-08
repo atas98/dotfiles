@@ -1,0 +1,69 @@
+[global]
+    title = Dunst
+    class = Dunst
+    monitor = 0
+    follow = mouse
+    markup = full
+
+    # Format
+    origin = top-right
+    width = 320
+    height = 320
+    offset = 15x35
+    alignment = center
+    format = "<span size='x-large' font_desc='Inconsolata 11' weight='bold' foreground='#ebdbb2'>%s</span>\n\n%b"
+    word_wrap = true
+    padding = 8
+    horizontal_padding = 13
+    font = Inconsolata Bold 11
+    line_height = 0
+    corner_radius = 10
+
+    # Multiple notifications
+    notification_limit = 10
+    sort = true
+    indicate_hidden = true
+    separator_color = "#585858"
+    separator_height = 4
+    stack_duplicates = true
+
+    idle_threshold = 120
+    sticky_history = true
+
+    icon_size = 48
+    icon_position = left
+    max_icon_size = 96
+
+    browser = firefox
+    dmenu=/usr/bin/rofi -dmenu -p dunst:
+
+    mouse_left_click = context,close_current
+    mouse_middle_click = do_action
+    mouse_right_click = close_all
+
+    frame_width = 2
+    frame_color = "#928374"
+
+[urgency_low]
+    background = "#282828"
+    foreground = "#ebdbb2"
+    highlight = "#CC241D"
+    frame_color = "#928374"
+    timeout = 5
+    default_icon = /usr/share/icons/Papirus/48x48/emblems/emblem-question.svg
+
+[urgency_normal]
+    background = "#282828"
+    foreground = "#ebdbb2"
+    highlight = "#CC241D"
+    frame_color = "#D65D0E"
+    timeout = 20
+    default_icon = /usr/share/icons/Papirus/48x48/emblems/emblem-important.svg
+
+[urgency_critical]
+    background = "#282828"
+    foreground = "#ebdbb2"
+    highlight = "#CC241D"
+    frame_color = "#CC241D"
+    timeout = 0
+    default_icon = /usr/share/icons/Papirus/48x48/emblems/emblem-urgent.svg

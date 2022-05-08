@@ -1,0 +1,172 @@
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontFamily": "Fira Code Medium",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "editor.cursorStyle": "line",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": false,
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "workbench.editor.enablePreview": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "go.autocompleteUnimportedPackages": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "redhat.telemetry.enabled": false,
+    "fontAwesomeAutocomplete.patterns": [
+        "**/*.html",
+        "**/*.xml"
+    ],
+    "fontAwesomeAutocomplete.insertionTemplate": {
+        "**/*.html": "{style} {prefix}{name}",
+        "**/*.xml": "{prefix}{name}",
+    },
+    "gitlens.views.commits.files.layout": "list",
+    "vim.enableNeovim": true,
+    "vim.leader": " ",
+    "vim.neovimUseConfigFile": true,
+    "vim.replaceWithRegister": true,
+    "vim.useSystemClipboard": true,
+    "vim.visualstar": true,
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [">"],
+            "after": [">", "g", "v"]
+        },
+        {
+            "before": ["<"],
+            "after": ["<", "g", "v"]
+        },
+    ],
+    "vim.normalModeKeyBindings": [
+    ],
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": true
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml",
+    },
+    "python.analysis.completeFunctionParens": true,
+    "git.enableSmartCommit": true,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "xmlTools.enforcePrettySelfClosingTagOnFormat": true,
+    "xml.symbols.filters": [
+        {
+            "pattern": "**/*.xml",
+            "expressions": [
+                {
+                    "xpath": "//@id",
+                    "inlineAttribute" : true,
+                },
+                {
+                    "xpath": "//@name",
+                    "inlineAttribute" : true,
+                },
+            ],
+        },
+    ],
+    "explorer.confirmDelete": false,
+    "vim.foldfix": true,
+    "vim.shell": "/usr/bin/zsh",
+    "vim.showMarksInGutter": true,
+    "vim.smartRelativeLine": true,
+    "vim.sneak": true,
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.inlineSuggest.enabled": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "database": "smarttek_dev_17_03",
+            "username": "odoo",
+            "password": "odoo",
+            "name": "smarttek_dev_17_03"
+        }
+    ],
+    "Lua.telemetry.enable": false,
+    "window.titleBarStyle": "custom",
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "optimize",
+            "color": "#FADB2F",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+    ],
+}

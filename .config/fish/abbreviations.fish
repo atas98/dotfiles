@@ -1,0 +1,25 @@
+# Set all fish abbreviations
+abbr --add g 'git'
+abbr --add gst 'git status'
+abbr --add gs 'git status'
+abbr --add gc 'git commit -v'
+abbr --add ga 'git add'
+abbr --add gco 'git checkout'
+abbr --add gcb 'git checkout -b'
+abbr --add gcp 'git cherry-pick'
+abbr --add glg 'git log --oneline -n 10'
+abbr --add gd 'git diff'
+abbr --add grb 'git rebase'
+abbr --add grbi 'git rebase --interactive'
+abbr --add gm 'git merge'
+abbr --add gba 'git branch -a'
+abbr --add gr 'git remote -v'
+abbr --add gsa 'git submodule add' # gsa <repo> <directory>
+abbr --add gsi 'git submodule init'
+abbr --add gsu 'git submodule update'
+abbr --add gss 'git submodule status'
+abbr --add gsd 'git submodule deinit'
+
+abbr --add s 'sudo'
+abbr --add se 'sudo -E'
+
